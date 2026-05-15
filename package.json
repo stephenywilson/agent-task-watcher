@@ -27,8 +27,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/catalayer/agent-task-watcher.git"
+    "url": "git+https://github.com/stephenywilson/agent-task-watcher.git"
   },
+  "bugs": {
+    "url": "https://github.com/stephenywilson/agent-task-watcher/issues"
+  },
+  "homepage": "https://github.com/stephenywilson/agent-task-watcher#readme",
   "author": "",
   "license": "MIT",
   "devDependencies": {
