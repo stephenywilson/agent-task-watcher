@@ -1,0 +1,38 @@
+{
+  "name": "agent-task-watcher",
+  "version": "0.1.0",
+  "description": "Track what AI coding agents changed before you trust the result.",
+  "type": "module",
+  "bin": {
+    "agent-task-watcher": "./dist/cli.js"
+  },
+  "files": [
+    "dist/",
+    "README.md",
+    "CHANGELOG.md",
+    "docs/sample-report.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/cli.js",
+    "test": "npm run smoke",
+    "smoke": "npm run build && node scripts/smoke.mjs"
+  },
+  "keywords": [
+    "ai",
+    "cli",
+    "code-review",
+    "developer-tools",
+    "local-first"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catalayer/agent-task-watcher.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "typescript": "^5.4.5"
+  }
+}

@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.agent-task-watcher/
+.DS_Store
+coverage/
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.env
+.env.*
+SMOKE_TEST_CHANGE.txt
+agent-task-watcher-smoke-*/
